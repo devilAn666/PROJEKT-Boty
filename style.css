@@ -21,3 +21,150 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+body {
+    background-color: #f5f5f5;
+}
+.kontejner {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    width: 670px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.box {
+    width: 335px;
+    height: 440px;
+    padding: 30px;
+}
+.green {
+    border-radius: 10px 0 0 10px;
+    position: relative;
+    background-image: linear-gradient(#06d7c1, #50cc49);
+}
+
+.bota {
+    position: absolute;
+    right: 0;
+    bottom: 0
+}
+
+.vpravodole {
+   position:absolute;
+   right: 30px;
+   bottom: 30px;
+}
+
+.castka {
+    text-align: right;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.zaruka {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.green p {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.white {
+    border-radius: 0 10px 10px 0;
+    background-color: white;  
+    position: relative;
+}
+
+.white p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+
+.horni {
+    border-bottom: 1px solid #06d7c1;
+}
+
+.dolni {
+    border-top: 1px solid #06d7c1;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin:0
+}
+
+.typ {
+    color: #959595;
+}
+
+h2 {
+   margin-top: 30px;
+   margin-bottom: 15px;
+   font-size: 14px;
+   text-transform: uppercase;
+   font-weight: 500;
+}
+
+.velikost {    
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    width: 275px;
+    flex-grow: 6;
+    flex-shrink: 0;
+}
+
+.velikost li {
+    display: inline-box;
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    font-size: 14px;
+      
+}
+
+.velikost36,
+.velikost37,
+.velikost38,
+.velikost39 {
+    margin: 0 10px;
+}
+
+.velikost35 {
+    margin-right: 10px;
+}
+
+.velikost40 {
+    margin-left: 10px;
+}
+.velikost38 {
+    border: 1px solid #f15f42;
+    border-radius: 50%;
+    color: #f15f42;
+}
+
+a {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 14px 30px;
+    color: white;
+    background-color: #f15f42;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+}
